@@ -1,0 +1,46 @@
+.body-container {
+  font-size: 1.3rem;
+  margin-top: 20%;
+  line-height: 3rem;
+}
+
+.body-span {
+  font-size: 2rem;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 1rem; /* Adjust as needed */
+}
+
+p {
+  margin-bottom: 1rem;
+  line-height: 2.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff; /* Blue color for link */
+}
+
+.animated-icon {
+  animation: bounce 2s infinite; /* Adjust the duration as needed */
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(20px); /* Adjust the distance as needed */
+  }
+}
+
+.footer-link {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-link:hover {
+  color: #0077b5; /* LinkedIn blue */
+}

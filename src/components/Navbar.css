@@ -1,0 +1,33 @@
+.nav-link {
+  color: #ffffff; /* White color for text */
+  padding: 10px; /* Padding around the link */
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+.spin-animation {
+  animation: spin 3s linear infinite;
+  color: aqua;
+}
+
+.ui.secondary.inverted.pointing.menu {
+  border: none; /* Remove border */
+}
+
+.folderOpen {
+  color: rgb(255, 2, 2);
+}
+.envelopeIcon {
+  color: royalblue;
+}
+.blog {
+  color: rgb(130, 8, 141);
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

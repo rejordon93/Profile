@@ -1,0 +1,13 @@
+.footer-container {
+  display: flex;
+  position: fixed; /* Position it fixed to the bottom */
+  bottom: 0;
+  width: 100%;
+  background-color: #f1f1f1; /* Optional: background color for the footer */
+  padding: 10px 0; /* Padding to give some space around the image */
+}
+
+.footer-img {
+  width: 50px; /* Smaller width */
+  height: auto;
+}
